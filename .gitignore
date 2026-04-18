@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Local configuration files
+.env.local
+
+# GCP Secrets (CRITICAL FOR SECURITY)
+*.json
+!api_contract.json
+credentials.json
+google-credentials.json
+.gcp/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
